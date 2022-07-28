@@ -1,0 +1,23 @@
+.headerBar{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color: white;
+}
+.searchBar input{
+    width: 350px;
+    height: 30px;
+    border-radius:2px;
+    outline: none;
+    filter: drop-shadow(1px 1px 5px  white);
+}
+.searchBar input:focus{
+    background-color: rgb(89, 188, 89);
+}
+.searchBar input::placeholder{
+    text-align: center;
+    color: black;
+}

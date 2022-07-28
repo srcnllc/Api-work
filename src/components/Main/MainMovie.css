@@ -1,0 +1,44 @@
+.content{
+    color:white;
+    /* border: 0.5px solid white; */
+    height: calc(100% - 100px);
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.content .mainbox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content .mainbox .box{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    transition-duration: 0.5s;
+}
+.content .mainbox .box:hover{
+    transform: translateY(-20px);
+}
+.content .mainbox .box img{
+    width: 200px;
+    border-radius: 5px;
+}
+.movieInfo{
+    width: 200px;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    margin-top: -20px;
+    color: black;
+    font-weight: bold;
+    opacity: 0;
+    visibility: hidden;
+    transition:  visibility 0.4s,opacity 0.4s linear;
+}
+.content .mainbox .box img:hover + .movieInfo{
+    visibility: visible;
+    opacity: .5;
+    transition:  visibility 0.4s,opacity 0.4s linear;
+
+}
