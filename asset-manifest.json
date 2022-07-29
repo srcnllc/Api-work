@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Api-work/static/css/main.7d08841b.css",
+    "main.js": "/Api-work/static/js/main.dcfde397.js",
+    "index.html": "/Api-work/index.html",
+    "main.7d08841b.css.map": "/Api-work/static/css/main.7d08841b.css.map",
+    "main.dcfde397.js.map": "/Api-work/static/js/main.dcfde397.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d08841b.css",
+    "static/js/main.dcfde397.js"
+  ]
+}
